@@ -1,19 +1,23 @@
 ***ANSWER ALL QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer: A programming language is a formal language comprising a set of instructions that produce various kinds of output.
+programming languages are used in computer programming to implement algorithms.
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer: Java Development Kit is a software development environment used for developing Java applications and applets.
+It includes the Java Runtime environment (JRE) = is the core runtime module for the Java System.
+The compiler, applet viewer, debugger, class file disassembler, header and sub file generator, and documentation generator
+are the primary tools used by Java developers.
 
 What is an IDE?
-Answer:
+Answer: Integrated Developed Environment is a software application which enables users to more easily write and debug Java programs.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer: Eclipse IDE, Jet Brains  intellij IDE for java.
 
 Explain the entire java life cycle.
-Answer:
+Answer: There is only 4 states in thread life cylce in java new, runnable, non-runnable and terminated.
 
 What is a class?
 Answer:
