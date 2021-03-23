@@ -17,9 +17,7 @@ public class JsonReaderUtil {
 
     /*
       ToDo:API is given, This Rest API will give you a Json Array. It is parsed partially. Your task is to give the following output.
-
       output:
-
      "mrahman@gmail.com" "Matiur Rahman" "400k" "Finance"
      "mrahman@gmail.com" "Rohan Rahman" "100k" "Engineering"
      "kafil@gmail.com" "Kafil" "200k" "Backend End Team"
@@ -31,7 +29,6 @@ public class JsonReaderUtil {
      "mrahman2@gmail.com" "Mizanur Rahman" "405k" "Finance"
      "mdtaque@gmail.com" "rifat taque" "400k" "QA"
      "mdtaque@gmail.com" "rifat taque" "400k" "QA"
-
      */
 
     public static void main(String[] args) throws IOException {
@@ -54,6 +51,8 @@ public class JsonReaderUtil {
                 JsonObject jsonobject = jsonArray.get(i).getAsJsonObject();
 
                 // Your code implementation starts here
+
+                System.out.println(jsonArray.toString().toCharArray());
 
                 String empEmail = jsonobject.get("empEmail").toString();
                 System.out.println(empEmail);
